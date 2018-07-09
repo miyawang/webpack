@@ -1,18 +1,18 @@
 {
-  "name": "webpack-demo",
+  "name": "webpack-project",
   "version": "1.0.0",
-  "description": "demo",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot;webpack;npm run build; webpack-dev-server --open;",
-    "build": "webpack",
-    "dev": "webpack-dev-server"
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^3.10.0"
   }
 }

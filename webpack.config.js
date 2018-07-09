@@ -1,33 +1,20 @@
-// const path = require('path')
-// module.exports = {
-//     entry:  './app/index.js', // 入口文件
-//     output: {
-//       path: path.resolve(__AAAname, 'build'), 
-//       // 必须使用绝对地址，输出文件夹
-//       filename: "bundle.js" 
-//       // 打包后输出文件的文件名
-//     }
-//   }
-
-
-const path = require('path');
-
 module.exports = {
-  entry: './app/index.js',
+  entry:  __dirname + "/app/main.js",//已多次提及的唯一入口文件
   output: {
-    filename: 'bundel.js',
-    path: path.resolve(__dirname, 'dist')
+    path: __dirname + "/public",//打包后的文件存放的地方
+    filename: "bundle.js"//打包后输出文件的文件名
   },
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        use: 'babel-loader',
-        exclude: /node_modules/
-      },
-      {
-        "presets": ["babel-preset-env"]
-      }
+        {
+        // js 文件才使用 babel
+            test: /\.js$/,
+         // 使用哪个 loader
+            use: 'babel-loader',
+        // 不包括路径
+            exclude: /node_modules/
+        },
     ]
-  }
-};
+},
+
+}
