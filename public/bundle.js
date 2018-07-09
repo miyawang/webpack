@@ -65,17 +65,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("\n\nvar _sum = __webpack_require__(1);\n\nvar _sum2 = _interopRequireDefault(_sum);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log((0, _sum2.default)(1, 2));\n\n// const greeter = require('./Greeter.js');\n// document.querySelector(\"#root\").appendChild(greeter());//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hcHAvbWFpbi5qcz82YTRiIl0sIm5hbWVzIjpbImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7OztBQUNBQSxRQUFRQyxHQUFSLENBQVksbUJBQUksQ0FBSixFQUFPLENBQVAsQ0FBWjs7QUFHQTtBQUNBIiwiZmlsZSI6IjAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3VtIGZyb20gJy4vc3VtJ1xyXG5jb25zb2xlLmxvZyhzdW0oMSwgMikpXHJcblxyXG5cclxuLy8gY29uc3QgZ3JlZXRlciA9IHJlcXVpcmUoJy4vR3JlZXRlci5qcycpO1xyXG4vLyBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiI3Jvb3RcIikuYXBwZW5kQ2hpbGQoZ3JlZXRlcigpKTtcclxuXG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIC4vYXBwL21haW4uanMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///0\n");
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (a, b) {\n  return a + b;\n};\n\n// module.exports = function(a, b) {\n//   return a + b\n// }\n// // index.js\n// var sum = require('./sum')\n// console.log(sum(1, 2))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hcHAvc3VtLmpzPzBhODciXSwibmFtZXMiOlsiYSIsImIiXSwibWFwcGluZ3MiOiI7Ozs7OztrQkFBZSxVQUFDQSxDQUFELEVBQUlDLENBQUosRUFBVTtBQUN2QixTQUFPRCxJQUFJQyxDQUFYO0FBQ0QsQzs7QUFFRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiMS5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IChhLCBiKSA9PiB7XHJcbiAgcmV0dXJuIGEgKyBiXHJcbn1cclxuXHJcbi8vIG1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24oYSwgYikge1xyXG4vLyAgIHJldHVybiBhICsgYlxyXG4vLyB9XHJcbi8vIC8vIGluZGV4LmpzXHJcbi8vIHZhciBzdW0gPSByZXF1aXJlKCcuL3N1bScpXHJcbi8vIGNvbnNvbGUubG9nKHN1bSgxLCAyKSlcblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gLi9hcHAvc3VtLmpzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///1\n");
+eval("throw new Error(\"Module build failed: SyntaxError: C:/Users/MiyaWang/Desktop/webpack-project/app/main.js: Unexpected token (10:7)\\n\\n\\u001b[0m \\u001b[90m  8 | \\u001b[39m\\u001b[36mimport\\u001b[39m \\u001b[32m'./main.css'\\u001b[39m\\u001b[33m;\\u001b[39m\\u001b[90m//使用require导入css文件\\u001b[39m\\n \\u001b[90m  9 | \\u001b[39m\\n\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 10 | \\u001b[39mrender(\\u001b[33m<\\u001b[39m\\u001b[33mGreeter\\u001b[39m\\u001b[33m/\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[33m,\\u001b[39m document\\u001b[33m.\\u001b[39mgetElementById(\\u001b[32m'root'\\u001b[39m))\\u001b[33m;\\u001b[39m\\n \\u001b[90m    | \\u001b[39m       \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\n \\u001b[90m 11 | \\u001b[39m\\n \\u001b[90m 12 | \\u001b[39m\\n \\u001b[90m 13 | \\u001b[39m\\u001b[90m// const greeter = require('./Greeter.js');\\u001b[39m\\u001b[0m\\n\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIwLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///0\n");
 
 /***/ })
 /******/ ]);
